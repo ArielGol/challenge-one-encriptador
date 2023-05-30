@@ -52,5 +52,4 @@ function desencriptar(mensaje){
   }
   
 
-let mensaje="Hola como estas";
-console.log(encriptar(mensaje));
+
