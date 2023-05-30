@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Challenge One Encriptador de texto</title>
+</head>
+
+<body>
+  <main class="contenido-principal">
+    <div class="contenedor-header-section">
+      <header>
+        <img src="./imagenes/Logo.png" alt="logo Alura">
+      </header>
+      <section class="contenedor-cuadro">
+        <textarea class="cuadro-texto" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+        <div class="contenedor-advertencia">
+          <img src="./imagenes/Advertencia.png" alt="advertencia">
+          <p class="advertencia">Solo letras minúsculas y sin
+            acentos</p>
+        </div>
+        <div class="contenedor-botones">
+          <button class="boton boton-encriptar">Encriptar</button>
+          <button class="boton boton-desencriptar">Desencriptar</button>
+        </div>
+      </section>
+    </div>
+    <aside class="sin-mensaje">
+      <div class="contenido-sin-mensaje">
+        <div class="contenedor-munheco">
+          <img class="imagen-munheco" src="./imagenes/Muñeco.png" alt="Niño mirando con una lupa">
+        </div>
+        <h2 class="titulo-sin-mensaje">Ningún mensaje fue encontrado</h2>
+        <p class="texto-sin-mensaje">Ingresa el texto que desees encriptar o desencriptar.</p>
+      </div>
+    </aside>
+    <aside class="mostrar-mensaje">
+      <textarea class="texto-con-mensaje" id="texto-con-mensaje" cols="20" rows="10"></textarea>
+      <button class="boton boton-copiar-mensaje">Copiar</button>
+    </aside>
+  </main>
+  <footer>
+    <img class="imagen-footer" src="./imagenes/logoAgol.png" alt="logo pie de página">
+    <p class="copyright">&copy Copyright Ariel Gol -2023</p>
+  </footer>
+
+</body>
+<script src="./index.js"></script>
+
+</html>
